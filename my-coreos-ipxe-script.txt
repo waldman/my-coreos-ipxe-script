@@ -1,6 +1,6 @@
 #!ipxe
 
 set base-url http://alpha.release.core-os.net/amd64-usr/current
-kernel ${base-url}/coreos_production_pxe.vmlinuz sshkey=""
+kernel ${base-url}/coreos_production_pxe.vmlinuz sshkey="ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzcgnT7n9LXXYW5L2AMiVNL5RyxA+YQ1CZy5I5wOhNMhet0bWUgoJUqC25moY9+D5FLUF1bTvnbCQ2X1kVbVw2IBRetgYaL6oyobGT8l01MBgmKVg/WdyOMiZ9alpqLzN+05tCc6wzHWV5R5AFVskUv37QbV+ffHT/EXztd9t/bVO1PxSfYjarIdbTdbf/1TwGVENLfa2s/q544LksTuRfRTna6tb/DKkcx2Z48o2EsJau/HqRVvf4ypCeDd2CqvI09hLDiuXsxG8x3EPSisJBR409BeUBkWPlAMF4YvQsBPp3iJ8uiRfNJAVM62fghUbwKQRogCbeFOI9dmov0bML leon@leon-note"
 initrd ${base-url}/coreos_production_pxe_image.cpio.gz
 boot
